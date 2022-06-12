@@ -1,0 +1,36 @@
+.cart-item {
+  display: flex;
+  margin-bottom: 25px;
+  p {
+    margin: 5px 0;
+  }
+}
+.item-name {
+  p {
+    font-size: 20px;
+  }
+}
+
+.price {
+  font-weight: bold;
+}
+
+.item-details {
+  flex-basis: 85%;
+}
+.item-amount {
+  display: flex;
+  flex-direction: column;
+  p {
+    text-align: center;
+    margin: 3.2rem 0;
+  }
+}
+
+.item-image {
+  flex-basis: 5%;
+  margin-left: 20px;
+  img {
+    width: 200px;
+  }
+}

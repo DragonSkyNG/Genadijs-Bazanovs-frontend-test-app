@@ -1,0 +1,11 @@
+.categories {
+  a {
+    padding: 0 5px;
+  }
+  .active-link {
+    color: #5ece7b;
+    text-decoration: underline;
+    text-underline-offset: 35px;
+  }
+  flex-basis: 48%;
+}
