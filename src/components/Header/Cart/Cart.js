@@ -68,7 +68,8 @@ class Cart extends Component {
             Total amount: {this.state.currency.symbol} {totalPrice.toFixed(2)}
           </p>
           <Link to={"/cart"} onClick={this.closeCartHandler.bind(this)}>
-            <button className={classes.button}>Open Cart</button>
+            <button className={classes.button}>OPEN CART</button>
+            <button className={classes["checkout-button"]}>CHECK OUT</button>
           </Link>
         </Modal>
       );
